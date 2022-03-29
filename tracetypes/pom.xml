@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Copyright (C) 2017 École Polytechnique de Montréal
+
+   All rights reserved. This program and the accompanying materials
+   are made available under the terms of the Eclipse Public License 2.0
+   which accompanies this distribution, and is available at
+   https://www.eclipse.org/legal/epl-2.0/
+
+   SPDX-License-Identifier: EPL-2.0
+-->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <artifactId>org.eclipse.tracecompass.incubator</artifactId>
+    <groupId>org.eclipse.tracecompass.incubator</groupId>
+    <version>0.1.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>org.eclipse.tracecompass.incubator.tracetypes-parent</artifactId>
+  <packaging>pom</packaging>
+
+  <name>Trace Compass Incubator tracetypes Parent</name>
+
+  <modules>
+    <module>org.eclipse.tracecompass.incubator.traceevent</module>
+    <module>org.eclipse.tracecompass.incubator.traceevent.core</module>
+    <module>org.eclipse.tracecompass.incubator.traceevent.core.tests</module>
+    <module>org.eclipse.tracecompass.incubator.traceevent.ui</module>
+    <module>org.eclipse.tracecompass.incubator.hudson.maven</module>
+    <module>org.eclipse.tracecompass.incubator.hudson.maven.core</module>
+    <module>org.eclipse.tracecompass.incubator.hudson.maven.core.tests</module>
+    <module>org.eclipse.tracecompass.incubator.hudson.maven.ui</module>
+    <module>org.eclipse.tracecompass.incubator.opentracing</module>
+    <module>org.eclipse.tracecompass.incubator.opentracing.core</module>
+    <module>org.eclipse.tracecompass.incubator.opentracing.core.tests</module>
+    <module>org.eclipse.tracecompass.incubator.opentracing.ui</module>
+    <module>org.eclipse.tracecompass.incubator.perf.profiling</module>
+    <module>org.eclipse.tracecompass.incubator.perf.profiling.core</module>
+    <module>org.eclipse.tracecompass.incubator.perf.profiling.core.tests</module>
+    <module>org.eclipse.tracecompass.incubator.uftrace</module>
+    <module>org.eclipse.tracecompass.incubator.uftrace.core</module>
+    <module>org.eclipse.tracecompass.incubator.uftrace.core.tests</module>
+    <module>org.eclipse.tracecompass.incubator.tracecompass</module>
+    <module>org.eclipse.tracecompass.incubator.tracecompass.core</module>
+    <module>org.eclipse.tracecompass.incubator.tracecompass.core.tests</module>
+    <module>org.eclipse.tracecompass.incubator.ftrace</module>
+    <module>org.eclipse.tracecompass.incubator.ftrace.core</module>
+    <module>org.eclipse.tracecompass.incubator.ftrace.core.tests</module>
+    <module>org.eclipse.tracecompass.incubator.atrace</module>
+    <module>org.eclipse.tracecompass.incubator.atrace.core</module>
+    <module>org.eclipse.tracecompass.incubator.atrace.core.tests</module>
+    <module>org.eclipse.tracecompass.incubator.ros</module>
+    <module>org.eclipse.tracecompass.incubator.ros.core</module>
+    <module>org.eclipse.tracecompass.incubator.ros.core.tests</module>
+    <module>org.eclipse.tracecompass.incubator.ros.ui</module>
+    <module>org.eclipse.tracecompass.incubator.otf2</module>
+    <module>org.eclipse.tracecompass.incubator.otf2.core</module>
+    <module>org.eclipse.tracecompass.incubator.otf2.core.tests</module>
+    <module>org.eclipse.tracecompass.incubator.otf2.ui</module>
+    <module>org.eclipse.tracecompass.incubator.gerrit</module>
+    <module>org.eclipse.tracecompass.incubator.gerrit.core</module>
+    <module>org.eclipse.tracecompass.incubator.gerrit.core.tests</module>
+    <module>org.eclipse.tracecompass.incubator.system</module>
+    <module>org.eclipse.tracecompass.incubator.system.core</module>
+    <module>org.eclipse.tracecompass.incubator.system.core.tests</module>
+    <module>org.eclipse.tracecompass.incubator.jpftrace</module>
+    <module>org.eclipse.tracecompass.incubator.jpftrace.core</module>
+    <module>org.eclipse.tracecompass.incubator.jpftrace.core.tests</module>
+    <module>org.eclipse.tracecompass.incubator.jpftrace.ui</module>
+    <!-- insert modules here -->
+  </modules>
+
+</project>

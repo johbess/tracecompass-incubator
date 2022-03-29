@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+   <extension
+         point="org.eclipse.linuxtools.tmf.core.tracetype">
+      <category
+            id="org.eclipse.tracecompass.incubator.jpftrace.core"
+            name="Java Path Finder Trace Format">
+      </category>
+      <type
+            category="org.eclipse.tracecompass.incubator.jpftrace.core"
+            event_type="org.eclipse.tracecompass.tmf.core.event.TmfEvent"
+            id="org.eclipse.tracecompass.incubator.jpftrace.core"
+            isDirectory="false"
+            name="Java Path Finder Trace"
+            trace_type="org.eclipse.tracecompass.incubator.internal.jpftrace.core.trace.JpfTrace">
+      </type>
+      <experiment
+            category="org.eclipse.tracecompass.incubator.jpftrace.core"
+            experiment_type="org.eclipse.tracecompass.incubator.internal.jpftrace.core.trace.JpfTraceExperiment"
+            id="org.eclipse.tracecompass.incubator.jpftrace.core.experiment"
+            name="%jpftrace.experiment.name">
+      </experiment>
+   </extension>
+
+   <extension
+         point="org.eclipse.linuxtools.tmf.core.analysis">
+      <module
+            analysis_module="org.eclipse.tracecompass.incubator.internal.jpftrace.core.analysis.threadstatus.JpfAnalysisModule"
+            automatic="true"
+            icon="icons/jpf.png"
+            id="org.eclipse.tracecompass.incubator.internal.jpftrace.core.analysis"
+            name="%analysis.linuxkernel">
+         <tracetype
+               applies="true"
+               class="org.eclipse.tracecompass.analysis.os.linux.core.trace.IKernelTrace">
+         </tracetype>
+      </module>
+   </extension>
+   <extension
+   	       point="org.eclipse.tracecompass.tmf.core.dataprovider">
+      <dataProviderFactory
+            class="org.eclipse.tracecompass.incubator.internal.jpftrace.core.analysis.threadstatus.JpfThreadStatusDataProviderFactory"
+            id="org.eclipse.tracecompass.incubator.internal.jpftrace.core.analysis.threadstatus.JpfThreadStatusDataProvider">
+      </dataProviderFactory>
+   </extension> 
+</plugin>

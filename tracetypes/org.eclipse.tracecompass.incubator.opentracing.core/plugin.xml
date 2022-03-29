@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin
+>
+   <extension
+         point="org.eclipse.linuxtools.tmf.core.tracetype">
+      <category
+            id="org.eclipse.tracecompass.incubator.opentracing.core"
+            name="Open Tracing Format">
+      </category>
+      <type
+            category="org.eclipse.tracecompass.incubator.opentracing.core"
+            event_type="org.eclipse.tracecompass.tmf.core.event.TmfEvent"
+            id="org.eclipse.tracecompass.incubator.opentracing.core"
+            isDirectory="false"
+            name="Generic Open Tracing Trace"
+            trace_type="org.eclipse.tracecompass.incubator.internal.opentracing.core.trace.OpenTracingTrace">
+      </type>
+      <experiment
+            category="org.eclipse.tracecompass.incubator.opentracing.core"
+            experiment_type="org.eclipse.tracecompass.incubator.internal.opentracing.core.trace.OpenTracingExperiment"
+            id="org.eclipse.tracecompass.incubator.opentracing.core.experiment"
+            name="%opentracing.experiment.name">
+      </experiment>
+   </extension>
+   <extension
+         point="org.eclipse.linuxtools.tmf.core.analysis">
+      <module
+            analysis_module="org.eclipse.tracecompass.incubator.internal.opentracing.core.analysis.spanlife.SpanLifeAnalysis"
+            automatic="true"
+            icon="icons/spanslife.png"
+            id="org.eclipse.tracecompass.incubator.opentracing.analysis.spanlife"
+            name="Spans Life">
+         <tracetype
+               applies="true"
+               class="org.eclipse.tracecompass.incubator.internal.opentracing.core.trace.OpenTracingTrace">
+         </tracetype>
+         <tracetype
+               applies="true"
+               class="org.eclipse.tracecompass.incubator.internal.opentracing.core.trace.OpenTracingExperiment">
+         </tracetype>
+      </module>
+   </extension>
+   <extension
+         point="org.eclipse.tracecompass.tmf.core.dataprovider">
+      <dataProviderFactory
+            class="org.eclipse.tracecompass.incubator.internal.opentracing.core.analysis.spanlife.SpanLifeDataProviderFactory"
+            id="org.eclipse.tracecompass.incubator.opentracing.analysis.spanlife.dataprovider">
+      </dataProviderFactory>
+   </extension>
+</plugin>

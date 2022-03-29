@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.tracecompass.analysis.os.linux.core.graph.handler">
+      <handler
+            class="org.eclipse.tracecompass.incubator.internal.lttng2.ust.extras.core.pthread.PThreadLockGraphHandler$HandlerBuilderPThreadLock">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.linuxtools.tmf.core.analysis">
+      <module
+            analysis_module="org.eclipse.tracecompass.incubator.internal.kernel.core.callstack.context.ContextCallStackAnalysis"
+            id="org.eclipse.tracecompass.incubator.ust.core.callstack.core.context"
+            name="%analysis.callstack.context">
+         <tracetype
+               applies="true"
+               class="org.eclipse.tracecompass.lttng2.ust.core.trace.LttngUstTrace">
+         </tracetype>
+      </module>
+   </extension>
+
+</plugin>

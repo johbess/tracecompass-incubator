@@ -1,0 +1,588 @@
+!SESSION 2022-03-15 14:00:48.059 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.12
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=sv_SE
+Framework arguments:  -eclipse.keyring /var/folders/6d/__kd_ct15z9g0lchxcwfjxlh0000gn/T/tycho12396173738106245747secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/6d/__kd_ct15z9g0lchxcwfjxlh0000gn/T/tycho12396173738106245747secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2022-03-15 14:00:48.059
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-15 14:04:45.110
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:04:45.110
+!MESSAGE Add request for Trace Compass Trace Server (Jersey Rest) 0.0.1.202203151300 (traceserver 0.0.1.202203151300) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-15 14:04:49.803
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:04:49.803
+!MESSAGE Add request for Trace Compass Trace Server (Jersey Rest) 0.0.1.202203151300 (traceserver 0.0.1.202203151300) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-15 14:04:53.794
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:04:53.794
+!MESSAGE Add request for Trace Compass Trace Server (Jersey Rest) 0.0.1.202203151300 (traceserver 0.0.1.202203151300) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:13.095
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:13.095
+!MESSAGE Add request for Trace Compass RCP Feature 7.3.0.202203150320 (org.eclipse.tracecompass.rcp.feature.group 7.3.0.202203150320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:13.095
+!MESSAGE Add request for Trace Compass Scripting Javascript (Incubation) 0.1.0.202203151300 (org.eclipse.tracecompass.incubator.scripting.javascript.feature.group 0.1.0.202203151300) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:13.095
+!MESSAGE Add request for Trace Compass Incubator RCP Feature 0.1.0.202203151300 (org.eclipse.tracecompass.incubator.rcp.feature.group 0.1.0.202203151300) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:13.095
+!MESSAGE Add request for JSON Trace 7.3.0.202203150320 (org.eclipse.tracecompass.jsontrace.feature.group 7.3.0.202203150320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:13.095
+!MESSAGE Add request for Trace Compass Filters (Incubation) 0.1.0.202203151300 (org.eclipse.tracecompass.incubator.filters.feature.group 0.1.0.202203151300) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:13.095
+!MESSAGE Add request for Trace Compass Scripting (Incubation) 0.1.0.202203151300 (org.eclipse.tracecompass.incubator.scripting.feature.group 0.1.0.202203151300) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:13.095
+!MESSAGE Add request for Trace Compass Scripting Python (Incubation) 0.1.0.202203151300 (org.eclipse.tracecompass.incubator.scripting.python.feature.group 0.1.0.202203151300) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:13.095
+!MESSAGE Add request for Trace Compass (Incubator) 0.1.0.202203151300 (org.eclipse.tracecompass.incubator.rcp 0.1.0.202203151300) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:13.095
+!MESSAGE Add request for Trace Compass Cli 7.3.0.202203150320 (org.eclipse.tracecompass.tmf.cli.feature.group 7.3.0.202203150320) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:28.907
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:28.907
+!MESSAGE Add request for Trace Compass RCP Feature 7.3.0.202203150320 (org.eclipse.tracecompass.rcp.feature.group 7.3.0.202203150320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:28.907
+!MESSAGE Add request for Trace Compass Scripting Javascript (Incubation) 0.1.0.202203151300 (org.eclipse.tracecompass.incubator.scripting.javascript.feature.group 0.1.0.202203151300) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:28.907
+!MESSAGE Add request for Trace Compass Incubator RCP Feature 0.1.0.202203151300 (org.eclipse.tracecompass.incubator.rcp.feature.group 0.1.0.202203151300) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:28.907
+!MESSAGE Add request for JSON Trace 7.3.0.202203150320 (org.eclipse.tracecompass.jsontrace.feature.group 7.3.0.202203150320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:28.907
+!MESSAGE Add request for Trace Compass Filters (Incubation) 0.1.0.202203151300 (org.eclipse.tracecompass.incubator.filters.feature.group 0.1.0.202203151300) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:28.907
+!MESSAGE Add request for Trace Compass Scripting (Incubation) 0.1.0.202203151300 (org.eclipse.tracecompass.incubator.scripting.feature.group 0.1.0.202203151300) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:28.907
+!MESSAGE Add request for Trace Compass Scripting Python (Incubation) 0.1.0.202203151300 (org.eclipse.tracecompass.incubator.scripting.python.feature.group 0.1.0.202203151300) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:28.907
+!MESSAGE Add request for Trace Compass (Incubator) 0.1.0.202203151300 (org.eclipse.tracecompass.incubator.rcp 0.1.0.202203151300) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:28.907
+!MESSAGE Add request for Trace Compass Cli 7.3.0.202203150320 (org.eclipse.tracecompass.tmf.cli.feature.group 7.3.0.202203150320) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:43.730
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:43.730
+!MESSAGE Add request for Trace Compass RCP Feature 7.3.0.202203150320 (org.eclipse.tracecompass.rcp.feature.group 7.3.0.202203150320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:43.730
+!MESSAGE Add request for Trace Compass Scripting Javascript (Incubation) 0.1.0.202203151300 (org.eclipse.tracecompass.incubator.scripting.javascript.feature.group 0.1.0.202203151300) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:43.730
+!MESSAGE Add request for Trace Compass Incubator RCP Feature 0.1.0.202203151300 (org.eclipse.tracecompass.incubator.rcp.feature.group 0.1.0.202203151300) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:43.730
+!MESSAGE Add request for JSON Trace 7.3.0.202203150320 (org.eclipse.tracecompass.jsontrace.feature.group 7.3.0.202203150320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:43.730
+!MESSAGE Add request for Trace Compass Filters (Incubation) 0.1.0.202203151300 (org.eclipse.tracecompass.incubator.filters.feature.group 0.1.0.202203151300) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:43.730
+!MESSAGE Add request for Trace Compass Scripting (Incubation) 0.1.0.202203151300 (org.eclipse.tracecompass.incubator.scripting.feature.group 0.1.0.202203151300) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:43.730
+!MESSAGE Add request for Trace Compass Scripting Python (Incubation) 0.1.0.202203151300 (org.eclipse.tracecompass.incubator.scripting.python.feature.group 0.1.0.202203151300) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:43.730
+!MESSAGE Add request for Trace Compass (Incubator) 0.1.0.202203151300 (org.eclipse.tracecompass.incubator.rcp 0.1.0.202203151300) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:06:43.730
+!MESSAGE Add request for Trace Compass Cli 7.3.0.202203150320 (org.eclipse.tracecompass.tmf.cli.feature.group 7.3.0.202203150320) is satisfiable
+!SESSION 2022-03-15 14:11:19.085 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.12
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=sv_SE
+Framework arguments:  -eclipse.keyring /var/folders/6d/__kd_ct15z9g0lchxcwfjxlh0000gn/T/tycho11636797432413410210secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/6d/__kd_ct15z9g0lchxcwfjxlh0000gn/T/tycho11636797432413410210secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2022-03-15 14:11:19.085
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-15 14:15:18.737
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:15:18.737
+!MESSAGE Add request for Trace Compass Trace Server (Jersey Rest) 0.0.1.202203151311 (traceserver 0.0.1.202203151311) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-15 14:15:23.441
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:15:23.441
+!MESSAGE Add request for Trace Compass Trace Server (Jersey Rest) 0.0.1.202203151311 (traceserver 0.0.1.202203151311) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-15 14:15:27.772
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:15:27.772
+!MESSAGE Add request for Trace Compass Trace Server (Jersey Rest) 0.0.1.202203151311 (traceserver 0.0.1.202203151311) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:05.532
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:05.532
+!MESSAGE Add request for Trace Compass RCP Feature 7.3.0.202203150320 (org.eclipse.tracecompass.rcp.feature.group 7.3.0.202203150320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:05.532
+!MESSAGE Add request for Trace Compass Scripting Javascript (Incubation) 0.1.0.202203151311 (org.eclipse.tracecompass.incubator.scripting.javascript.feature.group 0.1.0.202203151311) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:05.532
+!MESSAGE Add request for Trace Compass Incubator RCP Feature 0.1.0.202203151311 (org.eclipse.tracecompass.incubator.rcp.feature.group 0.1.0.202203151311) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:05.532
+!MESSAGE Add request for JSON Trace 7.3.0.202203150320 (org.eclipse.tracecompass.jsontrace.feature.group 7.3.0.202203150320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:05.532
+!MESSAGE Add request for Trace Compass Filters (Incubation) 0.1.0.202203151311 (org.eclipse.tracecompass.incubator.filters.feature.group 0.1.0.202203151311) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:05.532
+!MESSAGE Add request for Trace Compass Scripting (Incubation) 0.1.0.202203151311 (org.eclipse.tracecompass.incubator.scripting.feature.group 0.1.0.202203151311) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:05.532
+!MESSAGE Add request for Trace Compass Scripting Python (Incubation) 0.1.0.202203151311 (org.eclipse.tracecompass.incubator.scripting.python.feature.group 0.1.0.202203151311) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:05.532
+!MESSAGE Add request for Trace Compass (Incubator) 0.1.0.202203151311 (org.eclipse.tracecompass.incubator.rcp 0.1.0.202203151311) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:05.532
+!MESSAGE Add request for Trace Compass Cli 7.3.0.202203150320 (org.eclipse.tracecompass.tmf.cli.feature.group 7.3.0.202203150320) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:21.115
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:21.115
+!MESSAGE Add request for Trace Compass RCP Feature 7.3.0.202203150320 (org.eclipse.tracecompass.rcp.feature.group 7.3.0.202203150320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:21.115
+!MESSAGE Add request for Trace Compass Scripting Javascript (Incubation) 0.1.0.202203151311 (org.eclipse.tracecompass.incubator.scripting.javascript.feature.group 0.1.0.202203151311) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:21.115
+!MESSAGE Add request for Trace Compass Incubator RCP Feature 0.1.0.202203151311 (org.eclipse.tracecompass.incubator.rcp.feature.group 0.1.0.202203151311) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:21.115
+!MESSAGE Add request for JSON Trace 7.3.0.202203150320 (org.eclipse.tracecompass.jsontrace.feature.group 7.3.0.202203150320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:21.115
+!MESSAGE Add request for Trace Compass Filters (Incubation) 0.1.0.202203151311 (org.eclipse.tracecompass.incubator.filters.feature.group 0.1.0.202203151311) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:21.115
+!MESSAGE Add request for Trace Compass Scripting (Incubation) 0.1.0.202203151311 (org.eclipse.tracecompass.incubator.scripting.feature.group 0.1.0.202203151311) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:21.115
+!MESSAGE Add request for Trace Compass Scripting Python (Incubation) 0.1.0.202203151311 (org.eclipse.tracecompass.incubator.scripting.python.feature.group 0.1.0.202203151311) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:21.115
+!MESSAGE Add request for Trace Compass (Incubator) 0.1.0.202203151311 (org.eclipse.tracecompass.incubator.rcp 0.1.0.202203151311) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:21.115
+!MESSAGE Add request for Trace Compass Cli 7.3.0.202203150320 (org.eclipse.tracecompass.tmf.cli.feature.group 7.3.0.202203150320) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:35.699
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:35.699
+!MESSAGE Add request for Trace Compass RCP Feature 7.3.0.202203150320 (org.eclipse.tracecompass.rcp.feature.group 7.3.0.202203150320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:35.699
+!MESSAGE Add request for Trace Compass Scripting Javascript (Incubation) 0.1.0.202203151311 (org.eclipse.tracecompass.incubator.scripting.javascript.feature.group 0.1.0.202203151311) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:35.699
+!MESSAGE Add request for Trace Compass Incubator RCP Feature 0.1.0.202203151311 (org.eclipse.tracecompass.incubator.rcp.feature.group 0.1.0.202203151311) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:35.699
+!MESSAGE Add request for JSON Trace 7.3.0.202203150320 (org.eclipse.tracecompass.jsontrace.feature.group 7.3.0.202203150320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:35.699
+!MESSAGE Add request for Trace Compass Filters (Incubation) 0.1.0.202203151311 (org.eclipse.tracecompass.incubator.filters.feature.group 0.1.0.202203151311) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:35.699
+!MESSAGE Add request for Trace Compass Scripting (Incubation) 0.1.0.202203151311 (org.eclipse.tracecompass.incubator.scripting.feature.group 0.1.0.202203151311) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:35.699
+!MESSAGE Add request for Trace Compass Scripting Python (Incubation) 0.1.0.202203151311 (org.eclipse.tracecompass.incubator.scripting.python.feature.group 0.1.0.202203151311) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:35.700
+!MESSAGE Add request for Trace Compass (Incubator) 0.1.0.202203151311 (org.eclipse.tracecompass.incubator.rcp 0.1.0.202203151311) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-15 14:16:35.700
+!MESSAGE Add request for Trace Compass Cli 7.3.0.202203150320 (org.eclipse.tracecompass.tmf.cli.feature.group 7.3.0.202203150320) is satisfiable
+!SESSION 2022-03-16 12:04:32.673 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.12
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=sv_SE
+Framework arguments:  -eclipse.keyring /var/folders/6d/__kd_ct15z9g0lchxcwfjxlh0000gn/T/tycho123793808037494560secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/6d/__kd_ct15z9g0lchxcwfjxlh0000gn/T/tycho123793808037494560secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2022-03-16 12:04:32.673
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2022-03-16 12:12:28.225 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.12
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=sv_SE
+Framework arguments:  -eclipse.keyring /var/folders/6d/__kd_ct15z9g0lchxcwfjxlh0000gn/T/tycho12082640844083200571secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/6d/__kd_ct15z9g0lchxcwfjxlh0000gn/T/tycho12082640844083200571secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2022-03-16 12:12:28.225
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2022-03-16 12:20:59.113 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.12
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=sv_SE
+Framework arguments:  -eclipse.keyring /var/folders/6d/__kd_ct15z9g0lchxcwfjxlh0000gn/T/tycho13391941518753259591secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/6d/__kd_ct15z9g0lchxcwfjxlh0000gn/T/tycho13391941518753259591secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2022-03-16 12:20:59.113
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2022-03-16 12:27:29.949 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.12
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=sv_SE
+Framework arguments:  -eclipse.keyring /var/folders/6d/__kd_ct15z9g0lchxcwfjxlh0000gn/T/tycho1467208337506430509secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/6d/__kd_ct15z9g0lchxcwfjxlh0000gn/T/tycho1467208337506430509secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2022-03-16 12:27:29.949
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2022-03-16 12:33:17.350 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.12
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=sv_SE
+Framework arguments:  -eclipse.keyring /var/folders/6d/__kd_ct15z9g0lchxcwfjxlh0000gn/T/tycho7562219691988017203secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/6d/__kd_ct15z9g0lchxcwfjxlh0000gn/T/tycho7562219691988017203secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2022-03-16 12:33:17.350
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2022-03-16 13:49:05.890 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.12
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=sv_SE
+Framework arguments:  -eclipse.keyring /var/folders/6d/__kd_ct15z9g0lchxcwfjxlh0000gn/T/tycho11775380450634763730secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/6d/__kd_ct15z9g0lchxcwfjxlh0000gn/T/tycho11775380450634763730secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2022-03-16 13:49:05.890
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-16 13:54:10.009
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:54:10.009
+!MESSAGE Add request for Trace Compass Trace Server (Jersey Rest) 0.0.1.202203161249 (traceserver 0.0.1.202203161249) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-16 13:54:14.893
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:54:14.893
+!MESSAGE Add request for Trace Compass Trace Server (Jersey Rest) 0.0.1.202203161249 (traceserver 0.0.1.202203161249) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-16 13:54:19.255
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:54:19.255
+!MESSAGE Add request for Trace Compass Trace Server (Jersey Rest) 0.0.1.202203161249 (traceserver 0.0.1.202203161249) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:02.062
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:02.062
+!MESSAGE Add request for Trace Compass (Incubator) 0.1.0.202203161249 (org.eclipse.tracecompass.incubator.rcp 0.1.0.202203161249) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:02.062
+!MESSAGE Add request for Trace Compass Scripting (Incubation) 0.1.0.202203161249 (org.eclipse.tracecompass.incubator.scripting.feature.group 0.1.0.202203161249) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:02.062
+!MESSAGE Add request for Trace Compass Scripting Python (Incubation) 0.1.0.202203161249 (org.eclipse.tracecompass.incubator.scripting.python.feature.group 0.1.0.202203161249) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:02.062
+!MESSAGE Add request for JSON Trace 7.3.0.202203160320 (org.eclipse.tracecompass.jsontrace.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:02.062
+!MESSAGE Add request for Trace Compass RCP Feature 7.3.0.202203160320 (org.eclipse.tracecompass.rcp.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:02.062
+!MESSAGE Add request for Trace Compass Incubator RCP Feature 0.1.0.202203161249 (org.eclipse.tracecompass.incubator.rcp.feature.group 0.1.0.202203161249) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:02.062
+!MESSAGE Add request for Trace Compass Scripting Javascript (Incubation) 0.1.0.202203161249 (org.eclipse.tracecompass.incubator.scripting.javascript.feature.group 0.1.0.202203161249) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:02.062
+!MESSAGE Add request for Trace Compass Cli 7.3.0.202203160320 (org.eclipse.tracecompass.tmf.cli.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:02.063
+!MESSAGE Add request for Trace Compass Filters (Incubation) 0.1.0.202203161249 (org.eclipse.tracecompass.incubator.filters.feature.group 0.1.0.202203161249) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:17.448
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:17.448
+!MESSAGE Add request for Trace Compass (Incubator) 0.1.0.202203161249 (org.eclipse.tracecompass.incubator.rcp 0.1.0.202203161249) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:17.448
+!MESSAGE Add request for Trace Compass Scripting (Incubation) 0.1.0.202203161249 (org.eclipse.tracecompass.incubator.scripting.feature.group 0.1.0.202203161249) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:17.448
+!MESSAGE Add request for Trace Compass Scripting Python (Incubation) 0.1.0.202203161249 (org.eclipse.tracecompass.incubator.scripting.python.feature.group 0.1.0.202203161249) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:17.448
+!MESSAGE Add request for JSON Trace 7.3.0.202203160320 (org.eclipse.tracecompass.jsontrace.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:17.448
+!MESSAGE Add request for Trace Compass RCP Feature 7.3.0.202203160320 (org.eclipse.tracecompass.rcp.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:17.448
+!MESSAGE Add request for Trace Compass Incubator RCP Feature 0.1.0.202203161249 (org.eclipse.tracecompass.incubator.rcp.feature.group 0.1.0.202203161249) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:17.448
+!MESSAGE Add request for Trace Compass Scripting Javascript (Incubation) 0.1.0.202203161249 (org.eclipse.tracecompass.incubator.scripting.javascript.feature.group 0.1.0.202203161249) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:17.448
+!MESSAGE Add request for Trace Compass Cli 7.3.0.202203160320 (org.eclipse.tracecompass.tmf.cli.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:17.448
+!MESSAGE Add request for Trace Compass Filters (Incubation) 0.1.0.202203161249 (org.eclipse.tracecompass.incubator.filters.feature.group 0.1.0.202203161249) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:33.449
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:33.449
+!MESSAGE Add request for Trace Compass (Incubator) 0.1.0.202203161249 (org.eclipse.tracecompass.incubator.rcp 0.1.0.202203161249) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:33.449
+!MESSAGE Add request for Trace Compass Scripting (Incubation) 0.1.0.202203161249 (org.eclipse.tracecompass.incubator.scripting.feature.group 0.1.0.202203161249) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:33.449
+!MESSAGE Add request for Trace Compass Scripting Python (Incubation) 0.1.0.202203161249 (org.eclipse.tracecompass.incubator.scripting.python.feature.group 0.1.0.202203161249) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:33.449
+!MESSAGE Add request for JSON Trace 7.3.0.202203160320 (org.eclipse.tracecompass.jsontrace.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:33.449
+!MESSAGE Add request for Trace Compass RCP Feature 7.3.0.202203160320 (org.eclipse.tracecompass.rcp.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:33.449
+!MESSAGE Add request for Trace Compass Incubator RCP Feature 0.1.0.202203161249 (org.eclipse.tracecompass.incubator.rcp.feature.group 0.1.0.202203161249) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:33.449
+!MESSAGE Add request for Trace Compass Scripting Javascript (Incubation) 0.1.0.202203161249 (org.eclipse.tracecompass.incubator.scripting.javascript.feature.group 0.1.0.202203161249) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:33.449
+!MESSAGE Add request for Trace Compass Cli 7.3.0.202203160320 (org.eclipse.tracecompass.tmf.cli.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 13:56:33.449
+!MESSAGE Add request for Trace Compass Filters (Incubation) 0.1.0.202203161249 (org.eclipse.tracecompass.incubator.filters.feature.group 0.1.0.202203161249) is satisfiable
+!SESSION 2022-03-16 15:04:01.465 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.12
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=sv_SE
+Framework arguments:  -eclipse.keyring /var/folders/6d/__kd_ct15z9g0lchxcwfjxlh0000gn/T/tycho12600293212342611494secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/6d/__kd_ct15z9g0lchxcwfjxlh0000gn/T/tycho12600293212342611494secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2022-03-16 15:04:01.466
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-16 15:08:12.675
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:08:12.675
+!MESSAGE Add request for Trace Compass Trace Server (Jersey Rest) 0.0.1.202203161403 (traceserver 0.0.1.202203161403) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-16 15:08:17.715
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:08:17.715
+!MESSAGE Add request for Trace Compass Trace Server (Jersey Rest) 0.0.1.202203161403 (traceserver 0.0.1.202203161403) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-16 15:08:21.872
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:08:21.872
+!MESSAGE Add request for Trace Compass Trace Server (Jersey Rest) 0.0.1.202203161403 (traceserver 0.0.1.202203161403) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:04.832
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:04.832
+!MESSAGE Add request for Trace Compass (Incubator) 0.1.0.202203161403 (org.eclipse.tracecompass.incubator.rcp 0.1.0.202203161403) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:04.832
+!MESSAGE Add request for Trace Compass Scripting (Incubation) 0.1.0.202203161403 (org.eclipse.tracecompass.incubator.scripting.feature.group 0.1.0.202203161403) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:04.832
+!MESSAGE Add request for Trace Compass Scripting Python (Incubation) 0.1.0.202203161403 (org.eclipse.tracecompass.incubator.scripting.python.feature.group 0.1.0.202203161403) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:04.832
+!MESSAGE Add request for JSON Trace 7.3.0.202203160320 (org.eclipse.tracecompass.jsontrace.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:04.832
+!MESSAGE Add request for Trace Compass RCP Feature 7.3.0.202203160320 (org.eclipse.tracecompass.rcp.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:04.832
+!MESSAGE Add request for Trace Compass Incubator RCP Feature 0.1.0.202203161403 (org.eclipse.tracecompass.incubator.rcp.feature.group 0.1.0.202203161403) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:04.832
+!MESSAGE Add request for Trace Compass Scripting Javascript (Incubation) 0.1.0.202203161403 (org.eclipse.tracecompass.incubator.scripting.javascript.feature.group 0.1.0.202203161403) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:04.832
+!MESSAGE Add request for Trace Compass Cli 7.3.0.202203160320 (org.eclipse.tracecompass.tmf.cli.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:04.832
+!MESSAGE Add request for Trace Compass Filters (Incubation) 0.1.0.202203161403 (org.eclipse.tracecompass.incubator.filters.feature.group 0.1.0.202203161403) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:22.401
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:22.401
+!MESSAGE Add request for Trace Compass (Incubator) 0.1.0.202203161403 (org.eclipse.tracecompass.incubator.rcp 0.1.0.202203161403) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:22.401
+!MESSAGE Add request for Trace Compass Scripting (Incubation) 0.1.0.202203161403 (org.eclipse.tracecompass.incubator.scripting.feature.group 0.1.0.202203161403) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:22.401
+!MESSAGE Add request for Trace Compass Scripting Python (Incubation) 0.1.0.202203161403 (org.eclipse.tracecompass.incubator.scripting.python.feature.group 0.1.0.202203161403) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:22.401
+!MESSAGE Add request for JSON Trace 7.3.0.202203160320 (org.eclipse.tracecompass.jsontrace.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:22.401
+!MESSAGE Add request for Trace Compass RCP Feature 7.3.0.202203160320 (org.eclipse.tracecompass.rcp.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:22.401
+!MESSAGE Add request for Trace Compass Incubator RCP Feature 0.1.0.202203161403 (org.eclipse.tracecompass.incubator.rcp.feature.group 0.1.0.202203161403) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:22.401
+!MESSAGE Add request for Trace Compass Scripting Javascript (Incubation) 0.1.0.202203161403 (org.eclipse.tracecompass.incubator.scripting.javascript.feature.group 0.1.0.202203161403) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:22.401
+!MESSAGE Add request for Trace Compass Cli 7.3.0.202203160320 (org.eclipse.tracecompass.tmf.cli.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:22.401
+!MESSAGE Add request for Trace Compass Filters (Incubation) 0.1.0.202203161403 (org.eclipse.tracecompass.incubator.filters.feature.group 0.1.0.202203161403) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:39.078
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:39.078
+!MESSAGE Add request for Trace Compass (Incubator) 0.1.0.202203161403 (org.eclipse.tracecompass.incubator.rcp 0.1.0.202203161403) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:39.078
+!MESSAGE Add request for Trace Compass Scripting (Incubation) 0.1.0.202203161403 (org.eclipse.tracecompass.incubator.scripting.feature.group 0.1.0.202203161403) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:39.078
+!MESSAGE Add request for Trace Compass Scripting Python (Incubation) 0.1.0.202203161403 (org.eclipse.tracecompass.incubator.scripting.python.feature.group 0.1.0.202203161403) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:39.078
+!MESSAGE Add request for JSON Trace 7.3.0.202203160320 (org.eclipse.tracecompass.jsontrace.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:39.078
+!MESSAGE Add request for Trace Compass RCP Feature 7.3.0.202203160320 (org.eclipse.tracecompass.rcp.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:39.078
+!MESSAGE Add request for Trace Compass Incubator RCP Feature 0.1.0.202203161403 (org.eclipse.tracecompass.incubator.rcp.feature.group 0.1.0.202203161403) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:39.078
+!MESSAGE Add request for Trace Compass Scripting Javascript (Incubation) 0.1.0.202203161403 (org.eclipse.tracecompass.incubator.scripting.javascript.feature.group 0.1.0.202203161403) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:39.078
+!MESSAGE Add request for Trace Compass Cli 7.3.0.202203160320 (org.eclipse.tracecompass.tmf.cli.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-16 15:09:39.078
+!MESSAGE Add request for Trace Compass Filters (Incubation) 0.1.0.202203161403 (org.eclipse.tracecompass.incubator.filters.feature.group 0.1.0.202203161403) is satisfiable
+!SESSION 2022-03-17 11:02:34.078 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.12
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=sv_SE
+Framework arguments:  -eclipse.keyring /var/folders/6d/__kd_ct15z9g0lchxcwfjxlh0000gn/T/tycho4984977220926451924secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/6d/__kd_ct15z9g0lchxcwfjxlh0000gn/T/tycho4984977220926451924secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2022-03-17 11:02:34.078
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-17 11:07:42.280
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:07:42.280
+!MESSAGE Add request for Trace Compass Trace Server (Jersey Rest) 0.0.1.202203171002 (traceserver 0.0.1.202203171002) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-17 11:07:46.618
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:07:46.618
+!MESSAGE Add request for Trace Compass Trace Server (Jersey Rest) 0.0.1.202203171002 (traceserver 0.0.1.202203171002) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-17 11:07:50.821
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:07:50.821
+!MESSAGE Add request for Trace Compass Trace Server (Jersey Rest) 0.0.1.202203171002 (traceserver 0.0.1.202203171002) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-17 11:08:28.992
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:08:28.992
+!MESSAGE Add request for Trace Compass (Incubator) 0.1.0.202203171002 (org.eclipse.tracecompass.incubator.rcp 0.1.0.202203171002) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:08:28.992
+!MESSAGE Add request for Trace Compass Scripting Python (Incubation) 0.1.0.202203171002 (org.eclipse.tracecompass.incubator.scripting.python.feature.group 0.1.0.202203171002) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:08:28.992
+!MESSAGE Add request for Trace Compass Filters (Incubation) 0.1.0.202203171002 (org.eclipse.tracecompass.incubator.filters.feature.group 0.1.0.202203171002) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:08:28.992
+!MESSAGE Add request for JSON Trace 7.3.0.202203160320 (org.eclipse.tracecompass.jsontrace.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:08:28.992
+!MESSAGE Add request for Trace Compass Incubator RCP Feature 0.1.0.202203171002 (org.eclipse.tracecompass.incubator.rcp.feature.group 0.1.0.202203171002) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:08:28.992
+!MESSAGE Add request for Trace Compass Scripting Javascript (Incubation) 0.1.0.202203171002 (org.eclipse.tracecompass.incubator.scripting.javascript.feature.group 0.1.0.202203171002) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:08:28.992
+!MESSAGE Add request for Trace Compass RCP Feature 7.3.0.202203160320 (org.eclipse.tracecompass.rcp.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:08:28.992
+!MESSAGE Add request for Trace Compass Scripting (Incubation) 0.1.0.202203171002 (org.eclipse.tracecompass.incubator.scripting.feature.group 0.1.0.202203171002) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:08:28.992
+!MESSAGE Add request for Trace Compass Cli 7.3.0.202203160320 (org.eclipse.tracecompass.tmf.cli.feature.group 7.3.0.202203160320) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-17 11:08:47.475
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:08:47.475
+!MESSAGE Add request for Trace Compass (Incubator) 0.1.0.202203171002 (org.eclipse.tracecompass.incubator.rcp 0.1.0.202203171002) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:08:47.475
+!MESSAGE Add request for Trace Compass Scripting Python (Incubation) 0.1.0.202203171002 (org.eclipse.tracecompass.incubator.scripting.python.feature.group 0.1.0.202203171002) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:08:47.475
+!MESSAGE Add request for Trace Compass Filters (Incubation) 0.1.0.202203171002 (org.eclipse.tracecompass.incubator.filters.feature.group 0.1.0.202203171002) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:08:47.475
+!MESSAGE Add request for JSON Trace 7.3.0.202203160320 (org.eclipse.tracecompass.jsontrace.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:08:47.475
+!MESSAGE Add request for Trace Compass Incubator RCP Feature 0.1.0.202203171002 (org.eclipse.tracecompass.incubator.rcp.feature.group 0.1.0.202203171002) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:08:47.475
+!MESSAGE Add request for Trace Compass Scripting Javascript (Incubation) 0.1.0.202203171002 (org.eclipse.tracecompass.incubator.scripting.javascript.feature.group 0.1.0.202203171002) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:08:47.475
+!MESSAGE Add request for Trace Compass RCP Feature 7.3.0.202203160320 (org.eclipse.tracecompass.rcp.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:08:47.475
+!MESSAGE Add request for Trace Compass Scripting (Incubation) 0.1.0.202203171002 (org.eclipse.tracecompass.incubator.scripting.feature.group 0.1.0.202203171002) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:08:47.475
+!MESSAGE Add request for Trace Compass Cli 7.3.0.202203160320 (org.eclipse.tracecompass.tmf.cli.feature.group 7.3.0.202203160320) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-17 11:09:03.584
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:09:03.584
+!MESSAGE Add request for Trace Compass (Incubator) 0.1.0.202203171002 (org.eclipse.tracecompass.incubator.rcp 0.1.0.202203171002) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:09:03.584
+!MESSAGE Add request for Trace Compass Scripting Python (Incubation) 0.1.0.202203171002 (org.eclipse.tracecompass.incubator.scripting.python.feature.group 0.1.0.202203171002) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:09:03.584
+!MESSAGE Add request for Trace Compass Filters (Incubation) 0.1.0.202203171002 (org.eclipse.tracecompass.incubator.filters.feature.group 0.1.0.202203171002) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:09:03.584
+!MESSAGE Add request for JSON Trace 7.3.0.202203160320 (org.eclipse.tracecompass.jsontrace.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:09:03.584
+!MESSAGE Add request for Trace Compass Incubator RCP Feature 0.1.0.202203171002 (org.eclipse.tracecompass.incubator.rcp.feature.group 0.1.0.202203171002) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:09:03.584
+!MESSAGE Add request for Trace Compass Scripting Javascript (Incubation) 0.1.0.202203171002 (org.eclipse.tracecompass.incubator.scripting.javascript.feature.group 0.1.0.202203171002) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:09:03.584
+!MESSAGE Add request for Trace Compass RCP Feature 7.3.0.202203160320 (org.eclipse.tracecompass.rcp.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:09:03.584
+!MESSAGE Add request for Trace Compass Scripting (Incubation) 0.1.0.202203171002 (org.eclipse.tracecompass.incubator.scripting.feature.group 0.1.0.202203171002) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 11:09:03.584
+!MESSAGE Add request for Trace Compass Cli 7.3.0.202203160320 (org.eclipse.tracecompass.tmf.cli.feature.group 7.3.0.202203160320) is satisfiable
+!SESSION 2022-03-17 15:05:02.825 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.12
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=sv_SE
+Framework arguments:  -eclipse.keyring /var/folders/6d/__kd_ct15z9g0lchxcwfjxlh0000gn/T/tycho10557566616694679962secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/6d/__kd_ct15z9g0lchxcwfjxlh0000gn/T/tycho10557566616694679962secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2022-03-17 15:05:02.826
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2022-03-17 15:07:41.856 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.12
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=sv_SE
+Framework arguments:  -eclipse.keyring /var/folders/6d/__kd_ct15z9g0lchxcwfjxlh0000gn/T/tycho10065648959874486203secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/6d/__kd_ct15z9g0lchxcwfjxlh0000gn/T/tycho10065648959874486203secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2022-03-17 15:07:41.856
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-17 15:11:46.780
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:11:46.781
+!MESSAGE Add request for Trace Compass Trace Server (Jersey Rest) 0.0.1.202203171407 (traceserver 0.0.1.202203171407) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-17 15:11:51.408
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:11:51.408
+!MESSAGE Add request for Trace Compass Trace Server (Jersey Rest) 0.0.1.202203171407 (traceserver 0.0.1.202203171407) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-17 15:11:55.561
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:11:55.561
+!MESSAGE Add request for Trace Compass Trace Server (Jersey Rest) 0.0.1.202203171407 (traceserver 0.0.1.202203171407) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-17 15:12:33.583
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:12:33.583
+!MESSAGE Add request for Trace Compass Incubator RCP Feature 0.1.0.202203171407 (org.eclipse.tracecompass.incubator.rcp.feature.group 0.1.0.202203171407) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:12:33.583
+!MESSAGE Add request for Trace Compass Scripting (Incubation) 0.1.0.202203171407 (org.eclipse.tracecompass.incubator.scripting.feature.group 0.1.0.202203171407) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:12:33.583
+!MESSAGE Add request for Trace Compass (Incubator) 0.1.0.202203171407 (org.eclipse.tracecompass.incubator.rcp 0.1.0.202203171407) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:12:33.583
+!MESSAGE Add request for JSON Trace 7.3.0.202203160320 (org.eclipse.tracecompass.jsontrace.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:12:33.583
+!MESSAGE Add request for Trace Compass RCP Feature 7.3.0.202203160320 (org.eclipse.tracecompass.rcp.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:12:33.583
+!MESSAGE Add request for Trace Compass Scripting Python (Incubation) 0.1.0.202203171407 (org.eclipse.tracecompass.incubator.scripting.python.feature.group 0.1.0.202203171407) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:12:33.583
+!MESSAGE Add request for Trace Compass Filters (Incubation) 0.1.0.202203171407 (org.eclipse.tracecompass.incubator.filters.feature.group 0.1.0.202203171407) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:12:33.583
+!MESSAGE Add request for Trace Compass Cli 7.3.0.202203160320 (org.eclipse.tracecompass.tmf.cli.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:12:33.583
+!MESSAGE Add request for Trace Compass Scripting Javascript (Incubation) 0.1.0.202203171407 (org.eclipse.tracecompass.incubator.scripting.javascript.feature.group 0.1.0.202203171407) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-17 15:12:50.612
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:12:50.612
+!MESSAGE Add request for Trace Compass Incubator RCP Feature 0.1.0.202203171407 (org.eclipse.tracecompass.incubator.rcp.feature.group 0.1.0.202203171407) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:12:50.612
+!MESSAGE Add request for Trace Compass Scripting (Incubation) 0.1.0.202203171407 (org.eclipse.tracecompass.incubator.scripting.feature.group 0.1.0.202203171407) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:12:50.612
+!MESSAGE Add request for Trace Compass (Incubator) 0.1.0.202203171407 (org.eclipse.tracecompass.incubator.rcp 0.1.0.202203171407) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:12:50.612
+!MESSAGE Add request for JSON Trace 7.3.0.202203160320 (org.eclipse.tracecompass.jsontrace.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:12:50.612
+!MESSAGE Add request for Trace Compass RCP Feature 7.3.0.202203160320 (org.eclipse.tracecompass.rcp.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:12:50.612
+!MESSAGE Add request for Trace Compass Scripting Python (Incubation) 0.1.0.202203171407 (org.eclipse.tracecompass.incubator.scripting.python.feature.group 0.1.0.202203171407) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:12:50.612
+!MESSAGE Add request for Trace Compass Filters (Incubation) 0.1.0.202203171407 (org.eclipse.tracecompass.incubator.filters.feature.group 0.1.0.202203171407) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:12:50.612
+!MESSAGE Add request for Trace Compass Cli 7.3.0.202203160320 (org.eclipse.tracecompass.tmf.cli.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:12:50.612
+!MESSAGE Add request for Trace Compass Scripting Javascript (Incubation) 0.1.0.202203171407 (org.eclipse.tracecompass.incubator.scripting.javascript.feature.group 0.1.0.202203171407) is satisfiable
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-03-17 15:13:05.943
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:13:05.944
+!MESSAGE Add request for Trace Compass Incubator RCP Feature 0.1.0.202203171407 (org.eclipse.tracecompass.incubator.rcp.feature.group 0.1.0.202203171407) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:13:05.944
+!MESSAGE Add request for Trace Compass Scripting (Incubation) 0.1.0.202203171407 (org.eclipse.tracecompass.incubator.scripting.feature.group 0.1.0.202203171407) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:13:05.944
+!MESSAGE Add request for Trace Compass (Incubator) 0.1.0.202203171407 (org.eclipse.tracecompass.incubator.rcp 0.1.0.202203171407) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:13:05.944
+!MESSAGE Add request for JSON Trace 7.3.0.202203160320 (org.eclipse.tracecompass.jsontrace.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:13:05.944
+!MESSAGE Add request for Trace Compass RCP Feature 7.3.0.202203160320 (org.eclipse.tracecompass.rcp.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:13:05.944
+!MESSAGE Add request for Trace Compass Scripting Python (Incubation) 0.1.0.202203171407 (org.eclipse.tracecompass.incubator.scripting.python.feature.group 0.1.0.202203171407) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:13:05.944
+!MESSAGE Add request for Trace Compass Filters (Incubation) 0.1.0.202203171407 (org.eclipse.tracecompass.incubator.filters.feature.group 0.1.0.202203171407) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:13:05.944
+!MESSAGE Add request for Trace Compass Cli 7.3.0.202203160320 (org.eclipse.tracecompass.tmf.cli.feature.group 7.3.0.202203160320) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-03-17 15:13:05.944
+!MESSAGE Add request for Trace Compass Scripting Javascript (Incubation) 0.1.0.202203171407 (org.eclipse.tracecompass.incubator.scripting.javascript.feature.group 0.1.0.202203171407) is satisfiable

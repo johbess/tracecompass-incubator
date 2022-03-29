@@ -1,0 +1,154 @@
+# tracer: nop
+#
+# entries-in-buffer/entries-written: 89484/912978   #P:2
+#
+#                              _-----=> irqs-off
+#                             / _----=> need-resched
+#                            | / _---=> hardirq/softirq
+#                            || / _--=> preempt-depth
+#                            ||| /     delay
+#           TASK-PID   CPU#  ||||    TIMESTAMP  FUNCTION
+#              | |       |   ||||       |         |
+   Binder:2030_3-2053  [001] ...1   652.762396: sys_enter: NR 172 (29, c350, 805, ffffffff, 81, a508c6e8)
+   Binder:2030_3-2053  [001] ...1   652.762399: sys_exit: NR 172 = 0
+   Binder:2030_3-2053  [001] ...1   652.762403: sys_enter: NR 96 (0, 805, 88, 0, ac032340, a508c5d8)
+   Binder:2030_3-2053  [001] ...1   652.762403: sys_exit: NR 96 = 20
+   Binder:2030_3-2053  [001] ...1   652.762589: sys_enter: NR 240 (afc96f90, 81, 7fffffff, 0, 0, 0)
+   Binder:2030_3-2053  [001] ...1   652.762590: sys_exit: NR 240 = 0
+   Binder:2030_3-2053  [001] ...1   652.762591: sys_enter: NR 4 (3, a508c6c1, 4, a508c6c1, 66666667, a508c678)
+   Binder:2030_3-2053  [001] ...1   652.762595: sys_exit: NR 4 = 4
+   Binder:2030_3-2053  [001] ...1   652.762596: sys_enter: NR 172 (29, c350, 805, ffffffff, 81, a508c6e8)
+   Binder:2030_3-2053  [001] ...1   652.762598: sys_exit: NR 172 = 0
+   Binder:2030_3-2053  [001] ...1   652.762599: sys_enter: NR 54 (8, c0186201, a508c6b0, 0, fffffff7, a508c688)
+   Binder:2030_3-2053  [001] d..3   652.762608: sched_switch: prev_comm=Binder:2030_3 prev_pid=2053 prev_prio=120 prev_state=S ==> next_comm=IntentService[E next_pid=3866 next_prio=120
+ IntentService[E-3866  [001] ...1   652.762632: sys_exit: NR 54 = 0
+ IntentService[E-3866  [001] ...1   652.763068: sys_enter: NR 78 (8d8ec170, 0, af549b40, 932c1209, 130da9e8, 8d8ec158)
+ IntentService[E-3866  [001] ...1   652.763071: sys_exit: NR 78 = 0
+ IntentService[E-3866  [001] ...1   652.763076: sys_enter: NR 295 (ffffff9c, acd8f9ec, 8000, 0, 130da9e8, 8d8ec138)
+ IntentService[E-3866  [001] ...1   652.763092: sys_exit: NR 295 = -2
+ IntentService[E-3866  [001] ...1   652.763093: sys_enter: NR 54 (ffffffff, 40086134, 8d8ec160, 8d8ec160, 130da9e8, 8d8ec138)
+ IntentService[E-3866  [001] ...1   652.763094: sys_exit: NR 54 = -9
+ IntentService[E-3866  [001] ...1   652.763095: sys_enter: NR 265 (7, 8d8ec160, af549870, 8d8ec160, 130da9e8, 8d8ec138)
+ IntentService[E-3866  [001] ...1   652.763096: sys_exit: NR 265 = 0
+ IntentService[E-3866  [001] ...1   652.763282: sys_enter: NR 54 (8, c0186201, 8d8ebdf0, 0, fffffff7, 8d8ebdc8)
+ IntentService[E-3866  [001] dN.5   652.763329: sched_wakeup: comm=Binder:2030_4 pid=2404 prio=120 success=1 target_cpu=001
+ IntentService[E-3866  [001] d..3   652.763334: sched_switch: prev_comm=IntentService[E prev_pid=3866 prev_prio=120 prev_state=R+ ==> next_comm=Binder:2030_4 next_pid=2404 next_prio=120
+   Binder:2030_4-2404  [001] ...1   652.763338: sys_exit: NR 54 = 0
+   Binder:2030_4-2404  [001] ...1   652.763343: sys_enter: NR 240 (afc96f90, 81, 7fffffff, 0, 0, 0)
+   Binder:2030_4-2404  [001] ...1   652.763345: sys_exit: NR 240 = 0
+   Binder:2030_4-2404  [001] ...1   652.763347: sys_enter: NR 4 (3, 8b1f56c1, 4, 8b1f56c1, 66666667, 8b1f5678)
+   Binder:2030_4-2404  [001] ...1   652.763356: sys_exit: NR 4 = 4
+   Binder:2030_4-2404  [001] ...1   652.763357: sys_enter: NR 172 (29, c350, 964, ffffffff, 81, 8b1f56e8)
+   Binder:2030_4-2404  [001] ...1   652.763360: sys_exit: NR 172 = 0
+   Binder:2030_4-2404  [001] ...1   652.763364: sys_enter: NR 96 (0, 964, 88, 0, a0538140, 8b1f55d8)
+   Binder:2030_4-2404  [001] ...1   652.763365: sys_exit: NR 96 = 20
+   Binder:2030_4-2404  [001] ...1   652.763524: sys_enter: NR 240 (afc96f90, 81, 7fffffff, 0, 0, 0)
+   Binder:2030_4-2404  [001] ...1   652.763525: sys_exit: NR 240 = 0
+   Binder:2030_4-2404  [001] ...1   652.763527: sys_enter: NR 4 (3, 8b1f56c1, 4, 8b1f56c1, 66666667, 8b1f5678)
+   Binder:2030_4-2404  [001] ...1   652.763532: sys_exit: NR 4 = 4
+   Binder:2030_4-2404  [001] ...1   652.763532: sys_enter: NR 172 (29, c350, 964, ffffffff, 81, 8b1f56e8)
+   Binder:2030_4-2404  [001] ...1   652.763534: sys_exit: NR 172 = 0
+   Binder:2030_4-2404  [001] ...1   652.763536: sys_enter: NR 54 (8, c0186201, 8b1f56b0, 0, fffffff7, 8b1f5688)
+   Binder:2030_4-2404  [001] d..3   652.763544: sched_switch: prev_comm=Binder:2030_4 prev_pid=2404 prev_prio=120 prev_state=S ==> next_comm=IntentService[E next_pid=3866 next_prio=120
+ IntentService[E-3866  [001] ...1   652.763548: sys_exit: NR 54 = 0
+ IntentService[E-3866  [001] d.h1   652.763641: irq_handler_entry: irq=18 name=goldfish_pipe
+ IntentService[E-3866  [001] d.h1   652.763669: softirq_raise: vec=6 [action=TASKLET]
+ IntentService[E-3866  [001] d.h1   652.763670: irq_handler_exit: irq=18 ret=handled
+ IntentService[E-3866  [001] ..s1   652.763672: softirq_entry: vec=6 [action=TASKLET]
+ IntentService[E-3866  [001] ..s1   652.763688: softirq_exit: vec=6 [action=TASKLET]
+ IntentService[E-3866  [001] ...1   652.763913: sys_enter: NR 78 (8d8ec170, 0, af549b40, 932c1209, 130daa60, 8d8ec158)
+ IntentService[E-3866  [001] ...1   652.763915: sys_exit: NR 78 = 0
+ IntentService[E-3866  [001] ...1   652.763919: sys_enter: NR 295 (ffffff9c, acd8f9ec, 8000, 0, 130daa60, 8d8ec138)
+ IntentService[E-3866  [001] ...1   652.763935: sys_exit: NR 295 = -2
+ IntentService[E-3866  [001] ...1   652.763936: sys_enter: NR 54 (ffffffff, 40086134, 8d8ec160, 8d8ec160, 130daa60, 8d8ec138)
+ IntentService[E-3866  [001] ...1   652.763937: sys_exit: NR 54 = -9
+ IntentService[E-3866  [001] ...1   652.763938: sys_enter: NR 265 (7, 8d8ec160, af549870, 8d8ec160, 130daa60, 8d8ec138)
+ IntentService[E-3866  [001] ...1   652.763939: sys_exit: NR 265 = 0
+ IntentService[E-3866  [001] ...1   652.764106: sys_enter: NR 54 (8, c0186201, 8d8ebdf0, 0, fffffff7, 8d8ebdc8)
+ IntentService[E-3866  [001] dN.5   652.764151: sched_wakeup: comm=Binder:2030_5 pid=2757 prio=120 success=1 target_cpu=001
+ IntentService[E-3866  [001] d..3   652.764155: sched_switch: prev_comm=IntentService[E prev_pid=3866 prev_prio=120 prev_state=R+ ==> next_comm=Binder:2030_5 next_pid=2757 next_prio=120
+   Binder:2030_5-2757  [001] ...1   652.764159: sys_exit: NR 54 = 0
+   Binder:2030_5-2757  [001] ...1   652.764163: sys_enter: NR 240 (afc96f90, 81, 7fffffff, 0, 0, 0)
+   Binder:2030_5-2757  [001] ...1   652.764164: sys_exit: NR 240 = 0
+   Binder:2030_5-2757  [001] ...1   652.764166: sys_enter: NR 4 (3, 89fff6c1, 4, 89fff6c1, 66666667, 89fff678)
+   Binder:2030_5-2757  [001] ...1   652.764173: sys_exit: NR 4 = 4
+   Binder:2030_5-2757  [001] ...1   652.764174: sys_enter: NR 172 (29, c350, ac5, ffffffff, 81, 89fff6e8)
+   Binder:2030_5-2757  [001] ...1   652.764177: sys_exit: NR 172 = 0
+   Binder:2030_5-2757  [001] ...1   652.764181: sys_enter: NR 96 (0, ac5, 88, 0, afc8b9c0, 89fff5d8)
+   Binder:2030_5-2757  [001] ...1   652.764182: sys_exit: NR 96 = 20
+   Binder:2030_5-2757  [001] ...1   652.764325: sys_enter: NR 240 (afc96f90, 81, 7fffffff, 0, 0, 0)
+   Binder:2030_5-2757  [001] ...1   652.764326: sys_exit: NR 240 = 0
+   Binder:2030_5-2757  [001] ...1   652.764327: sys_enter: NR 4 (3, 89fff6c1, 4, 89fff6c1, 66666667, 89fff678)
+   Binder:2030_5-2757  [001] ...1   652.764332: sys_exit: NR 4 = 4
+   Binder:2030_5-2757  [001] ...1   652.764333: sys_enter: NR 172 (29, c350, ac5, ffffffff, 81, 89fff6e8)
+   Binder:2030_5-2757  [001] ...1   652.764334: sys_exit: NR 172 = 0
+   Binder:2030_5-2757  [001] ...1   652.764336: sys_enter: NR 54 (8, c0186201, 89fff6b0, 0, fffffff7, 89fff688)
+   Binder:2030_5-2757  [001] d..3   652.764344: sched_switch: prev_comm=Binder:2030_5 prev_pid=2757 prev_prio=120 prev_state=S ==> next_comm=IntentService[E next_pid=3866 next_prio=120
+ IntentService[E-3866  [001] ...1   652.764348: sys_exit: NR 54 = 0
+ IntentService[E-3866  [001] ...1   652.764561: sys_enter: NR 78 (8d8ec170, 0, af549b40, 932c1209, 130daad8, 8d8ec158)
+ IntentService[E-3866  [001] ...1   652.764564: sys_exit: NR 78 = 0
+ IntentService[E-3866  [001] ...1   652.764569: sys_enter: NR 295 (ffffff9c, acd8f9ec, 8000, 0, 130daad8, 8d8ec138)
+ IntentService[E-3866  [001] ...1   652.764591: sys_exit: NR 295 = -2
+ IntentService[E-3866  [001] ...1   652.764594: sys_enter: NR 54 (ffffffff, 40086134, 8d8ec160, 8d8ec160, 130daad8, 8d8ec138)
+ IntentService[E-3866  [001] ...1   652.764595: sys_exit: NR 54 = -9
+ IntentService[E-3866  [001] ...1   652.764596: sys_enter: NR 265 (7, 8d8ec160, af549870, 8d8ec160, 130daad8, 8d8ec138)
+ IntentService[E-3866  [001] ...1   652.764598: sys_exit: NR 265 = 0
+ IntentService[E-3866  [001] d.h1   652.765109: irq_handler_entry: irq=18 name=goldfish_pipe
+ IntentService[E-3866  [001] d.h1   652.765215: softirq_raise: vec=6 [action=TASKLET]
+ IntentService[E-3866  [001] d.h1   652.765216: irq_handler_exit: irq=18 ret=handled
+ IntentService[E-3866  [001] ..s1   652.765221: softirq_entry: vec=6 [action=TASKLET]
+ IntentService[E-3866  [001] ..s1   652.765275: softirq_exit: vec=6 [action=TASKLET]
+ IntentService[E-3866  [001] ...1   652.765409: sys_enter: NR 54 (8, c0186201, 8d8ebdf0, 0, fffffff7, 8d8ebdc8)
+ IntentService[E-3866  [001] dN.5   652.765570: sched_wakeup: comm=Binder:2030_1 pid=2051 prio=120 success=1 target_cpu=001
+ IntentService[E-3866  [001] d..3   652.765582: sched_switch: prev_comm=IntentService[E prev_pid=3866 prev_prio=120 prev_state=R+ ==> next_comm=Binder:2030_1 next_pid=2051 next_prio=120
+   Binder:2030_1-2051  [001] ...1   652.765595: sys_exit: NR 54 = 0
+   Binder:2030_1-2051  [001] ...1   652.765611: sys_enter: NR 240 (afc96f90, 81, 7fffffff, 0, 0, 0)
+   Binder:2030_1-2051  [001] ...1   652.765617: sys_exit: NR 240 = 0
+   Binder:2030_1-2051  [001] ...1   652.765624: sys_enter: NR 4 (3, aac416c1, 4, aac416c1, 66666667, aac41678)
+   Binder:2030_1-2051  [001] ...1   652.765647: sys_exit: NR 4 = 4
+   Binder:2030_1-2051  [001] ...1   652.765650: sys_enter: NR 172 (29, c350, 803, ffffffff, 81, aac416e8)
+   Binder:2030_1-2051  [001] ...1   652.765662: sys_exit: NR 172 = 0
+   Binder:2030_1-2051  [001] ...1   652.765674: sys_enter: NR 96 (0, 803, 88, 0, ac032040, aac415d8)
+   Binder:2030_1-2051  [001] ...1   652.765675: sys_exit: NR 96 = 20
+   Binder:2030_1-2051  [001] d.h1   652.765732: softirq_raise: vec=1 [action=TIMER]
+   Binder:2030_1-2051  [001] d.h1   652.765735: softirq_raise: vec=9 [action=RCU]
+   Binder:2030_1-2051  [001] d.h1   652.765743: softirq_raise: vec=7 [action=SCHED]
+   Binder:2030_1-2051  [001] ..s1   652.765770: softirq_entry: vec=1 [action=TIMER]
+   Binder:2030_1-2051  [001] ..s1   652.765773: softirq_exit: vec=1 [action=TIMER]
+   Binder:2030_1-2051  [001] ..s1   652.765774: softirq_entry: vec=7 [action=SCHED]
+   Binder:2030_1-2051  [001] ..s1   652.765785: softirq_exit: vec=7 [action=SCHED]
+   Binder:2030_1-2051  [001] ..s1   652.765786: softirq_entry: vec=9 [action=RCU]
+   Binder:2030_1-2051  [001] d.s1   652.765801: softirq_raise: vec=9 [action=RCU]
+   Binder:2030_1-2051  [001] ..s1   652.765803: softirq_exit: vec=9 [action=RCU]
+   Binder:2030_1-2051  [001] ..s1   652.765804: softirq_entry: vec=9 [action=RCU]
+   Binder:2030_1-2051  [001] d.s1   652.765815: softirq_raise: vec=9 [action=RCU]
+   Binder:2030_1-2051  [001] ..s1   652.765816: softirq_exit: vec=9 [action=RCU]
+   Binder:2030_1-2051  [001] ..s1   652.765816: softirq_entry: vec=9 [action=RCU]
+   Binder:2030_1-2051  [001] d.s1   652.765821: softirq_raise: vec=9 [action=RCU]
+   Binder:2030_1-2051  [001] ..s1   652.765822: softirq_exit: vec=9 [action=RCU]
+   Binder:2030_1-2051  [001] ..s1   652.765822: softirq_entry: vec=9 [action=RCU]
+   Binder:2030_1-2051  [001] ..s1   652.765827: softirq_exit: vec=9 [action=RCU]
+   Binder:2030_1-2051  [001] ...1   652.766345: sys_enter: NR 240 (afc96f90, 81, 7fffffff, 0, 0, 0)
+   Binder:2030_1-2051  [001] ...1   652.766352: sys_exit: NR 240 = 0
+   Binder:2030_1-2051  [001] ...1   652.766356: sys_enter: NR 4 (3, aac416c1, 4, aac416c1, 66666667, aac41678)
+   Binder:2030_1-2051  [001] ...1   652.766408: sys_exit: NR 4 = 4
+   Binder:2030_1-2051  [001] ...1   652.766409: sys_enter: NR 172 (29, c350, 803, ffffffff, 81, aac416e8)
+   Binder:2030_1-2051  [001] ...1   652.766416: sys_exit: NR 172 = 0
+   Binder:2030_1-2051  [001] ...1   652.766419: sys_enter: NR 54 (8, c0186201, aac416b0, 0, fffffff7, aac41688)
+   Binder:2030_1-2051  [001] d..3   652.766482: sched_switch: prev_comm=Binder:2030_1 prev_pid=2051 prev_prio=120 prev_state=S ==> next_comm=IntentService[E next_pid=3866 next_prio=120
+ IntentService[E-3866  [001] dNh5   652.766499: sched_wakeup: comm=DispSync pid=1332 prio=97 success=1 target_cpu=001
+ IntentService[E-3866  [001] d..3   652.766529: sched_switch: prev_comm=IntentService[E prev_pid=3866 prev_prio=120 prev_state=R+ ==> next_comm=DispSync next_pid=1332 next_prio=97
+        DispSync-1332  [001] ...1   652.766532: sys_exit: NR 240 = -110
+        DispSync-1332  [001] ...1   652.766547: sys_enter: NR 265 (1, b0d80540, b1610870, ffffff92, b1119000, b0d80528)
+        DispSync-1332  [001] ...1   652.766549: sys_exit: NR 265 = 0
+        DispSync-1332  [001] ...1   652.766565: sys_enter: NR 240 (b113f57c, 81, 7fffffff, 0, 0, 0)
+        DispSync-1332  [001] ...1   652.766599: sys_exit: NR 240 = 1
+        DispSync-1332  [001] ...1   652.766602: sys_enter: NR 240 (b113f4bc, 81, 7fffffff, 0, 0, 0)
+        DispSync-1332  [001] d..4   652.766613: sched_wakeup: comm=EventThread pid=1336 prio=111 success=1 target_cpu=001
+        DispSync-1332  [001] ...1   652.766614: sys_exit: NR 240 = 1
+        DispSync-1332  [001] ...1   652.766622: sys_enter: NR 265 (1, b0d80540, b1610870, b0d80540, b0d807c0, b0d804f8)
+        DispSync-1332  [001] ...1   652.766623: sys_exit: NR 265 = 0
+        DispSync-1332  [001] ...1   652.766624: sys_enter: NR 240 (b111906c, 89, b614, b0d80540, 0, ffffffff)
+        DispSync-1332  [001] d..3   652.766635: sched_switch: prev_comm=DispSync prev_pid=1332 prev_prio=97 prev_state=S ==> next_comm=EventThread next_pid=1336 next_prio=111
+     EventThread-1336  [001] ...1   652.766638: sys_exit: NR 240 = 0
+     EventThread-1336  [001] ...1   652.766659: sys_enter: NR 102 (b, b06806b0, 18, 4040, 18, b06806d8)

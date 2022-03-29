@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="org.eclipse.tracecompass.incubator.internal.virtual.machine.analysis.ui.views.vresources.VirtualResourcesView"
+            id="org.eclipse.tracecompass.incubator.internal.virtual.machine.analysis.ui.views.virtualresources"
+            name="%view.fused.name"
+            restorable="true">
+      </view>
+      <view
+            allowMultiple="false"
+            category="org.eclipse.linuxtools.tmf.ui.views.category"
+            class="org.eclipse.tracecompass.incubator.internal.virtual.machine.analysis.ui.views.vcpuview.VirtualMachineView"
+            id="org.eclipse.tracecompass.incubator.internal.virtual.machine.analysis.vm.ui.vmview"
+            name="%vcpuview.name"
+            restorable="true">
+      </view>
+   </extension>
+      <extension
+         point="org.eclipse.linuxtools.tmf.core.analysis">
+      <output
+            class="org.eclipse.tracecompass.tmf.ui.analysis.TmfAnalysisViewOutput"
+            id="org.eclipse.tracecompass.incubator.internal.virtual.machine.analysis.vm.ui.vmview">
+         <analysisId
+               id="org.eclipse.tracecompass.incubator.virtual.machine.analysis.core.VirtualResourcesAnalysis">
+         </analysisId>
+      </output>
+      <output
+            class="org.eclipse.tracecompass.tmf.ui.analysis.TmfAnalysisViewOutput"
+            id="org.eclipse.tracecompass.incubator.internal.virtual.machine.analysis.ui.views.virtualresources">
+         <analysisId
+               id="org.eclipse.tracecompass.incubator.virtual.machine.analysis.FusedVirtualMachineAnalysis">
+         </analysisId>
+      </output>
+   </extension>
+</plugin>

@@ -1,0 +1,150 @@
+# tracer: nop
+#
+# entries-in-buffer/entries-written: 69657/223807   #P:2
+#
+#                              _-----=> irqs-off
+#                             / _----=> need-resched
+#                            | / _---=> hardirq/softirq
+#                            || / _--=> preempt-depth
+#                            ||| /     delay
+#           TASK-PID   CPU#  ||||    TIMESTAMP  FUNCTION
+#              | |       |   ||||       |         |
+           <...>-1252  [000] dNh2   108.255501: sched_wakeup: comm=android.display pid=1603 prio=116 success=1 target_cpu=000
+           <...>-1252  [000] dNh2   108.255506: sched_wakeup: comm=EventThread pid=1338 prio=97 success=1 target_cpu=000
+           <...>-1252  [000] dNh2   108.255509: sched_wakeup: comm=ChildProcessMai pid=3304 prio=120 success=1 target_cpu=000
+           <...>-1252  [000] d..3   108.255517: sched_switch: prev_comm=logd.auditd prev_pid=1252 prev_prio=130 prev_state=R+ ==> next_comm=EventThread next_pid=1338 next_prio=97
+           <...>-1338  [000] d..3   108.255644: sched_switch: prev_comm=EventThread prev_pid=1338 prev_prio=97 prev_state=S ==> next_comm=Binder:1579_9 next_pid=2418 next_prio=120
+   Binder:1579_9-2418  [000] d..5   108.255661: sched_wakeup: comm=Binder:1579_1 pid=1590 prio=120 success=1 target_cpu=000
+   Binder:1579_9-2418  [000] d.h1   108.255707: softirq_raise: vec=1 [action=TIMER]
+   Binder:1579_9-2418  [000] d.h1   108.255709: softirq_raise: vec=9 [action=RCU]
+   Binder:1579_9-2418  [000] d.h4   108.255716: sched_wakeup: comm=logd.klogd pid=1251 prio=130 success=1 target_cpu=000
+   Binder:1579_9-2418  [000] ..s1   108.255740: softirq_entry: vec=1 [action=TIMER]
+   Binder:1579_9-2418  [000] ..s1   108.255741: softirq_exit: vec=1 [action=TIMER]
+   Binder:1579_9-2418  [000] ..s1   108.255742: softirq_entry: vec=9 [action=RCU]
+   Binder:1579_9-2418  [000] d.s1   108.255754: softirq_raise: vec=9 [action=RCU]
+   Binder:1579_9-2418  [000] ..s1   108.255756: softirq_exit: vec=9 [action=RCU]
+   Binder:1579_9-2418  [000] ..s1   108.255757: softirq_entry: vec=9 [action=RCU]
+   Binder:1579_9-2418  [000] ..s1   108.255761: softirq_exit: vec=9 [action=RCU]
+   Binder:1579_9-2418  [000] d..3   108.256354: sched_switch: prev_comm=Binder:1579_9 prev_pid=2418 prev_prio=118 prev_state=R+ ==> next_comm=Binder:1297_3 next_pid=1455 next_prio=120
+           <...>-1455  [000] d..3   108.256384: sched_switch: prev_comm=Binder:1297_3 prev_pid=1455 prev_prio=120 prev_state=S ==> next_comm=Binder:1579_7 next_pid=2101 next_prio=120
+   Binder:1579_7-2101  [000] d..3   108.256424: sched_switch: prev_comm=Binder:1579_7 prev_pid=2101 prev_prio=116 prev_state=R+ ==> next_comm=android.display next_pid=1603 next_prio=116
+           <...>-1603  [000] d..5   108.257809: sched_wakeup: comm=Binder:1297_4 pid=1660 prio=120 success=1 target_cpu=000
+           <...>-1603  [000] d..3   108.257915: sched_switch: prev_comm=android.display prev_pid=1603 prev_prio=116 prev_state=S ==> next_comm=Binder:1579_1 next_pid=1590 next_prio=120
+   Binder:1579_1-1590  [000] d..3   108.257921: sched_switch: prev_comm=Binder:1579_1 prev_pid=1590 prev_prio=120 prev_state=S ==> next_comm=Binder:1297_4 next_pid=1660 next_prio=120
+           <...>-1660  [000] d..3   108.257924: sched_switch: prev_comm=Binder:1297_4 prev_pid=1660 prev_prio=120 prev_state=S ==> next_comm=Binder:1579_7 next_pid=2101 next_prio=116
+   Binder:1579_7-2101  [000] d..3   108.258062: sched_switch: prev_comm=Binder:1579_7 prev_pid=2101 prev_prio=116 prev_state=S ==> next_comm=Binder:1579_9 next_pid=2418 next_prio=118
+   Binder:1579_9-2418  [000] dN.5   108.258282: sched_wakeup: comm=lmkd pid=1295 prio=98 success=1 target_cpu=000
+   Binder:1579_9-2418  [000] d..3   108.258286: sched_switch: prev_comm=Binder:1579_9 prev_pid=2418 prev_prio=118 prev_state=R+ ==> next_comm=lmkd next_pid=1295 next_prio=98
+            lmkd-1295  [000] d..3   108.258352: sched_switch: prev_comm=lmkd prev_pid=1295 prev_prio=98 prev_state=S ==> next_comm=Binder:1579_9 next_pid=2418 next_prio=118
+   Binder:1579_9-2418  [000] dNh4   108.258361: sched_wakeup: comm=EventThread pid=1338 prio=97 success=1 target_cpu=000
+   Binder:1579_9-2418  [000] d..3   108.258363: sched_switch: prev_comm=Binder:1579_9 prev_pid=2418 prev_prio=118 prev_state=R+ ==> next_comm=EventThread next_pid=1338 next_prio=97
+           <...>-1338  [000] d..3   108.258381: sched_switch: prev_comm=EventThread prev_pid=1338 prev_prio=97 prev_state=S ==> next_comm=Binder:1579_9 next_pid=2418 next_prio=118
+   Binder:1579_9-2418  [000] d.h2   108.258398: sched_wakeup: comm=android.display pid=1603 prio=116 success=1 target_cpu=000
+   Binder:1579_9-2418  [000] d..5   108.258650: sched_wakeup: comm=Binder:3139_2 pid=3152 prio=120 success=1 target_cpu=000
+   Binder:1579_9-2418  [000] d..3   108.258687: sched_switch: prev_comm=Binder:1579_9 prev_pid=2418 prev_prio=120 prev_state=R+ ==> next_comm=Binder:3139_2 next_pid=3152 next_prio=120
+   Binder:3139_2-3152  [000] d..3   108.258831: sched_switch: prev_comm=Binder:3139_2 prev_pid=3152 prev_prio=120 prev_state=S ==> next_comm=android.display next_pid=1603 next_prio=116
+           <...>-1603  [000] d..4   108.258883: sched_wakeup: comm=Binder:1579_7 pid=2101 prio=116 success=1 target_cpu=000
+           <...>-1603  [000] d..3   108.258938: sched_switch: prev_comm=android.display prev_pid=1603 prev_prio=116 prev_state=S ==> next_comm=Binder:1579_7 next_pid=2101 next_prio=116
+   Binder:1579_7-2101  [000] d..3   108.259049: sched_switch: prev_comm=Binder:1579_7 prev_pid=2101 prev_prio=120 prev_state=S ==> next_comm=Binder:1579_9 next_pid=2418 next_prio=120
+   Binder:1579_9-2418  [000] d..5   108.259093: sched_wakeup: comm=Chrome_ProcessL pid=3188 prio=120 success=1 target_cpu=000
+   Binder:1579_9-2418  [000] d..3   108.259113: sched_switch: prev_comm=Binder:1579_9 prev_pid=2418 prev_prio=120 prev_state=S ==> next_comm=Chrome_ProcessL next_pid=3188 next_prio=120
+           <...>-3188  [000] d..3   108.259183: sched_switch: prev_comm=Chrome_ProcessL prev_pid=3188 prev_prio=120 prev_state=S ==> next_comm=ChildProcessMai next_pid=3304 next_prio=120
+           <...>-3304  [000] dNh2   108.260244: sched_wakeup: comm=Binder:1579_8 pid=2417 prio=120 success=1 target_cpu=000
+           <...>-3304  [000] d..3   108.260249: sched_switch: prev_comm=ChildProcessMai prev_pid=3304 prev_prio=120 prev_state=R+ ==> next_comm=Binder:1579_8 next_pid=2417 next_prio=120
+   Binder:1579_8-2417  [000] d..3   108.260755: sched_switch: prev_comm=Binder:1579_8 prev_pid=2417 prev_prio=120 prev_state=S ==> next_comm=logd.klogd next_pid=1251 next_prio=130
+           <...>-1251  [000] d..3   108.260860: sched_switch: prev_comm=logd.klogd prev_pid=1251 prev_prio=130 prev_state=S ==> next_comm=ChildProcessMai next_pid=3304 next_prio=120
+           <...>-3304  [000] dNh4   108.263388: sched_wakeup: comm=SensorService pid=1617 prio=89 success=1 target_cpu=000
+           <...>-3304  [000] d..3   108.263402: sched_switch: prev_comm=ChildProcessMai prev_pid=3304 prev_prio=120 prev_state=R+ ==> next_comm=SensorService next_pid=1617 next_prio=89
+   SensorService-1617  [000] d..5   108.263761: sched_wakeup: comm=android.ui pid=1596 prio=118 success=1 target_cpu=000
+   SensorService-1617  [000] d..3   108.263825: sched_switch: prev_comm=SensorService prev_pid=1617 prev_prio=89 prev_state=S ==> next_comm=android.ui next_pid=1596 next_prio=118
+      android.ui-1596  [000] d..3   108.264003: sched_switch: prev_comm=android.ui prev_pid=1596 prev_prio=118 prev_state=S ==> next_comm=putmethod.latin next_pid=1661 next_prio=120
+           <...>-1661  [000] dN.5   108.264517: sched_wakeup: comm=Binder:1579_6 pid=2036 prio=120 success=1 target_cpu=000
+           <...>-1661  [000] d..3   108.264522: sched_switch: prev_comm=putmethod.latin prev_pid=1661 prev_prio=120 prev_state=R+ ==> next_comm=Binder:1579_6 next_pid=2036 next_prio=120
+   Binder:1579_6-2036  [000] d..5   108.264828: sched_wakeup: comm=android.display pid=1603 prio=116 success=1 target_cpu=000
+   Binder:1579_6-2036  [000] d..5   108.264916: sched_wakeup: comm=android.ui pid=1596 prio=118 success=1 target_cpu=000
+   Binder:1579_6-2036  [000] d..5   108.265143: sched_wakeup: comm=Binder:1297_1 pid=1328 prio=120 success=1 target_cpu=000
+   Binder:1579_6-2036  [000] d..3   108.265160: sched_switch: prev_comm=Binder:1579_6 prev_pid=2036 prev_prio=120 prev_state=S ==> next_comm=android.display next_pid=1603 next_prio=116
+           <...>-1603  [000] d..3   108.265213: sched_switch: prev_comm=android.display prev_pid=1603 prev_prio=116 prev_state=S ==> next_comm=Binder:1297_1 next_pid=1328 next_prio=120
+   Binder:1297_1-1328  [000] d..5   108.265392: sched_wakeup: comm=Binder:1579_6 pid=2036 prio=120 success=1 target_cpu=000
+   Binder:1297_1-1328  [000] d..3   108.265422: sched_switch: prev_comm=Binder:1297_1 prev_pid=1328 prev_prio=120 prev_state=S ==> next_comm=android.ui next_pid=1596 next_prio=118
+      android.ui-1596  [000] d..3   108.265563: sched_switch: prev_comm=android.ui prev_pid=1596 prev_prio=118 prev_state=S ==> next_comm=Binder:1579_6 next_pid=2036 next_prio=120
+   Binder:1579_6-2036  [000] d.h1   108.265743: softirq_raise: vec=1 [action=TIMER]
+   Binder:1579_6-2036  [000] d.h1   108.265745: softirq_raise: vec=9 [action=RCU]
+   Binder:1579_6-2036  [000] ..s1   108.265763: softirq_entry: vec=1 [action=TIMER]
+   Binder:1579_6-2036  [000] ..s1   108.265765: softirq_exit: vec=1 [action=TIMER]
+   Binder:1579_6-2036  [000] ..s1   108.265765: softirq_entry: vec=9 [action=RCU]
+   Binder:1579_6-2036  [000] d.s4   108.265772: sched_wakeup: comm=rcu_preempt pid=8 prio=120 success=1 target_cpu=000
+   Binder:1579_6-2036  [000] ..s1   108.265774: softirq_exit: vec=9 [action=RCU]
+   Binder:1579_6-2036  [000] d.h2   108.265931: sched_wakeup: comm=Binder:1667_3 pid=1841 prio=120 success=1 target_cpu=000
+   Binder:1579_6-2036  [000] dN.5   108.266375: sched_wakeup: comm=InputDispatcher pid=1623 prio=112 success=1 target_cpu=000
+   Binder:1579_6-2036  [000] d..3   108.266378: sched_switch: prev_comm=Binder:1579_6 prev_pid=2036 prev_prio=120 prev_state=R+ ==> next_comm=InputDispatcher next_pid=1623 next_prio=112
+ InputDispatcher-1623  [000] d..3   108.266394: sched_switch: prev_comm=InputDispatcher prev_pid=1623 prev_prio=112 prev_state=S ==> next_comm=rcu_preempt next_pid=8 next_prio=120
+     rcu_preempt-8     [000] d..3   108.266402: sched_switch: prev_comm=rcu_preempt prev_pid=8 prev_prio=120 prev_state=S ==> next_comm=Binder:1667_3 next_pid=1841 next_prio=120
+           <...>-1841  [000] d..5   108.266491: sched_wakeup: comm=ndroid.systemui pid=1667 prio=120 success=1 target_cpu=000
+           <...>-1841  [000] d..3   108.266546: sched_switch: prev_comm=Binder:1667_3 prev_pid=1841 prev_prio=120 prev_state=S ==> next_comm=ndroid.systemui next_pid=1667 next_prio=120
+           <...>-1667  [000] dNh4   108.266554: sched_wakeup: comm=EventThread pid=1338 prio=97 success=1 target_cpu=000
+           <...>-1667  [000] d..3   108.266557: sched_switch: prev_comm=ndroid.systemui prev_pid=1667 prev_prio=120 prev_state=R ==> next_comm=EventThread next_pid=1338 next_prio=97
+           <...>-1338  [000] d..3   108.266610: sched_switch: prev_comm=EventThread prev_pid=1338 prev_prio=97 prev_state=S ==> next_comm=ndroid.systemui next_pid=1667 next_prio=120
+           <...>-1667  [000] d..3   108.266653: sched_switch: prev_comm=ndroid.systemui prev_pid=1667 prev_prio=120 prev_state=S ==> next_comm=Binder:1579_6 next_pid=2036 next_prio=120
+   Binder:1579_6-2036  [000] d..3   108.266822: sched_switch: prev_comm=Binder:1579_6 prev_pid=2036 prev_prio=120 prev_state=S ==> next_comm=ChildProcessMai next_pid=3304 next_prio=120
+           <...>-3304  [000] dNh4   108.267046: sched_wakeup: comm=android.display pid=1603 prio=116 success=1 target_cpu=000
+           <...>-3304  [000] d..3   108.267051: sched_switch: prev_comm=ChildProcessMai prev_pid=3304 prev_prio=120 prev_state=R+ ==> next_comm=android.display next_pid=1603 next_prio=116
+           <...>-1603  [000] d..5   108.267142: sched_wakeup: comm=Binder:1297_3 pid=1455 prio=120 success=1 target_cpu=000
+           <...>-1603  [000] d..3   108.267149: sched_switch: prev_comm=android.display prev_pid=1603 prev_prio=116 prev_state=S ==> next_comm=Binder:1297_3 next_pid=1455 next_prio=120
+           <...>-1455  [000] dN.5   108.267198: sched_wakeup: comm=android.display pid=1603 prio=116 success=1 target_cpu=000
+           <...>-1455  [000] d..3   108.267212: sched_switch: prev_comm=Binder:1297_3 prev_pid=1455 prev_prio=120 prev_state=S ==> next_comm=android.display next_pid=1603 next_prio=116
+           <...>-1603  [000] d..5   108.267259: sched_wakeup: comm=Binder:1297_2 pid=1330 prio=120 success=1 target_cpu=000
+           <...>-1603  [000] d..3   108.267265: sched_switch: prev_comm=android.display prev_pid=1603 prev_prio=116 prev_state=S ==> next_comm=Binder:1297_2 next_pid=1330 next_prio=120
+   Binder:1297_2-1330  [000] dN.5   108.267300: sched_wakeup: comm=android.display pid=1603 prio=116 success=1 target_cpu=000
+   Binder:1297_2-1330  [000] d..3   108.267314: sched_switch: prev_comm=Binder:1297_2 prev_pid=1330 prev_prio=120 prev_state=S ==> next_comm=android.display next_pid=1603 next_prio=116
+           <...>-1603  [000] d..5   108.267747: sched_wakeup: comm=Binder:1297_4 pid=1660 prio=120 success=1 target_cpu=000
+           <...>-1603  [000] d..5   108.267814: sched_wakeup: comm=Binder:1297_5 pid=1960 prio=120 success=1 target_cpu=000
+           <...>-1603  [000] d..3   108.267820: sched_switch: prev_comm=android.display prev_pid=1603 prev_prio=116 prev_state=S ==> next_comm=Binder:1297_4 next_pid=1660 next_prio=120
+           <...>-1660  [000] d..5   108.267826: sched_wakeup: comm=Binder:1297_1 pid=1328 prio=120 success=1 target_cpu=000
+           <...>-1660  [000] d..3   108.267898: sched_switch: prev_comm=Binder:1297_4 prev_pid=1660 prev_prio=116 prev_state=R+ ==> next_comm=Binder:1297_5 next_pid=1960 next_prio=120
+           <...>-1960  [000] d..3   108.267901: sched_switch: prev_comm=Binder:1297_5 prev_pid=1960 prev_prio=120 prev_state=S ==> next_comm=Binder:1297_1 next_pid=1328 next_prio=120
+   Binder:1297_1-1328  [000] d..3   108.267904: sched_switch: prev_comm=Binder:1297_1 prev_pid=1328 prev_prio=120 prev_state=S ==> next_comm=Binder:1297_4 next_pid=1660 next_prio=116
+           <...>-1660  [000] dN.4   108.267962: sched_wakeup: comm=EventThread pid=1338 prio=97 success=1 target_cpu=000
+           <...>-1660  [000] d..3   108.267965: sched_switch: prev_comm=Binder:1297_4 prev_pid=1660 prev_prio=116 prev_state=R+ ==> next_comm=EventThread next_pid=1338 next_prio=97
+           <...>-1338  [000] d..3   108.267975: sched_switch: prev_comm=EventThread prev_pid=1338 prev_prio=97 prev_state=S ==> next_comm=Binder:1297_4 next_pid=1660 next_prio=116
+           <...>-1660  [000] dN.4   108.267978: sched_wakeup: comm=EventThread pid=1338 prio=97 success=1 target_cpu=000
+           <...>-1660  [000] d..3   108.267979: sched_switch: prev_comm=Binder:1297_4 prev_pid=1660 prev_prio=116 prev_state=R+ ==> next_comm=EventThread next_pid=1338 next_prio=97
+           <...>-1338  [000] d..3   108.267998: sched_switch: prev_comm=EventThread prev_pid=1338 prev_prio=97 prev_state=S ==> next_comm=Binder:1297_4 next_pid=1660 next_prio=116
+           <...>-1660  [000] dN.5   108.268012: sched_wakeup: comm=android.display pid=1603 prio=116 success=1 target_cpu=000
+           <...>-1660  [000] d..3   108.268028: sched_switch: prev_comm=Binder:1297_4 prev_pid=1660 prev_prio=120 prev_state=S ==> next_comm=android.display next_pid=1603 next_prio=116
+           <...>-1603  [000] d..3   108.268118: sched_switch: prev_comm=android.display prev_pid=1603 prev_prio=116 prev_state=S ==> next_comm=ChildProcessMai next_pid=3304 next_prio=120
+           <...>-3304  [000] dNh3   108.269601: sched_wakeup: comm=ActivityManager pid=1595 prio=118 success=1 target_cpu=000
+           <...>-3304  [000] d..3   108.269619: sched_switch: prev_comm=ChildProcessMai prev_pid=3304 prev_prio=120 prev_state=R+ ==> next_comm=ActivityManager next_pid=1595 next_prio=118
+ ActivityManager-1595  [000] d..3   108.269724: sched_switch: prev_comm=ActivityManager prev_pid=1595 prev_prio=118 prev_state=S ==> next_comm=ChildProcessMai next_pid=3304 next_prio=120
+           <...>-3304  [000] d.h2   108.275702: softirq_raise: vec=1 [action=TIMER]
+           <...>-3304  [000] d.h2   108.275704: softirq_raise: vec=9 [action=RCU]
+           <...>-3304  [000] ..s2   108.275724: softirq_entry: vec=1 [action=TIMER]
+           <...>-3304  [000] ..s2   108.275725: softirq_exit: vec=1 [action=TIMER]
+           <...>-3304  [000] ..s2   108.275726: softirq_entry: vec=9 [action=RCU]
+           <...>-3304  [000] d.s2   108.275735: softirq_raise: vec=9 [action=RCU]
+           <...>-3304  [000] ..s2   108.275736: softirq_exit: vec=9 [action=RCU]
+           <...>-3304  [000] ..s2   108.275737: softirq_entry: vec=9 [action=RCU]
+           <...>-3304  [000] d.s2   108.275743: softirq_raise: vec=9 [action=RCU]
+           <...>-3304  [000] ..s2   108.275743: softirq_exit: vec=9 [action=RCU]
+           <...>-3304  [000] ..s2   108.275744: softirq_entry: vec=9 [action=RCU]
+           <...>-3304  [000] ..s2   108.275748: softirq_exit: vec=9 [action=RCU]
+           <...>-3304  [000] dNh2   108.276576: sched_wakeup: comm=Binder:1579_3 pid=1651 prio=120 success=1 target_cpu=000
+           <...>-3304  [000] d..3   108.276579: sched_switch: prev_comm=ChildProcessMai prev_pid=3304 prev_prio=120 prev_state=R+ ==> next_comm=Binder:1579_3 next_pid=1651 next_prio=120
+   Binder:1579_3-1651  [000] dN.5   108.276801: sched_wakeup: comm=.android.chrome pid=3139 prio=116 success=1 target_cpu=000
+   Binder:1579_3-1651  [000] d..3   108.276823: sched_switch: prev_comm=Binder:1579_3 prev_pid=1651 prev_prio=120 prev_state=S ==> next_comm=.android.chrome next_pid=3139 next_prio=116
+ .android.chrome-3139  [000] d..5   108.276956: sched_wakeup: comm=Binder:1579_A pid=2419 prio=120 success=1 target_cpu=000
+ .android.chrome-3139  [000] d..3   108.276962: sched_switch: prev_comm=.android.chrome prev_pid=3139 prev_prio=116 prev_state=S ==> next_comm=Binder:1579_A next_pid=2419 next_prio=120
+   Binder:1579_A-2419  [000] dN.5   108.277094: sched_wakeup: comm=.android.chrome pid=3139 prio=116 success=1 target_cpu=000
+   Binder:1579_A-2419  [000] d..3   108.277118: sched_switch: prev_comm=Binder:1579_A prev_pid=2419 prev_prio=120 prev_state=S ==> next_comm=.android.chrome next_pid=3139 next_prio=116
+ .android.chrome-3139  [000] dN.5   108.277409: sched_wakeup: comm=Binder:1579_2 pid=1591 prio=120 success=1 target_cpu=000
+ .android.chrome-3139  [000] d..3   108.277411: sched_switch: prev_comm=.android.chrome prev_pid=3139 prev_prio=116 prev_state=R+ ==> next_comm=Binder:1579_2 next_pid=1591 next_prio=120
+   Binder:1579_2-1591  [000] d..3   108.277589: sched_switch: prev_comm=Binder:1579_2 prev_pid=1591 prev_prio=120 prev_state=S ==> next_comm=.android.chrome next_pid=3139 next_prio=116
+ .android.chrome-3139  [000] dN.5   108.278703: sched_wakeup: comm=Binder:1579_4 pid=1696 prio=120 success=1 target_cpu=000
+ .android.chrome-3139  [000] d..3   108.278708: sched_switch: prev_comm=.android.chrome prev_pid=3139 prev_prio=116 prev_state=R+ ==> next_comm=Binder:1579_4 next_pid=1696 next_prio=120
+   Binder:1579_4-1696  [000] d..3   108.278862: sched_switch: prev_comm=Binder:1579_4 prev_pid=1696 prev_prio=120 prev_state=S ==> next_comm=.android.chrome next_pid=3139 next_prio=116
+ .android.chrome-3139  [000] dN.5   108.279322: sched_wakeup: comm=Binder:1579_5 pid=1845 prio=120 success=1 target_cpu=000
+ .android.chrome-3139  [000] d..3   108.279326: sched_switch: prev_comm=.android.chrome prev_pid=3139 prev_prio=116 prev_state=R+ ==> next_comm=Binder:1579_5 next_pid=1845 next_prio=120
+   Binder:1579_5-1845  [000] d..3   108.279466: sched_switch: prev_comm=Binder:1579_5 prev_pid=1845 prev_prio=120 prev_state=S ==> next_comm=.android.chrome next_pid=3139 next_prio=116
+ .android.chrome-3139  [000] dN.5   108.279555: sched_wakeup: comm=Binder:1579_1 pid=1590 prio=120 success=1 target_cpu=000
+ .android.chrome-3139  [000] d..3   108.279558: sched_switch: prev_comm=.android.chrome prev_pid=3139 prev_prio=116 prev_state=R+ ==> next_comm=Binder:1579_1 next_pid=1590 next_prio=120
+   Binder:1579_1-1590  [000] d..3   108.279671: sched_switch: prev_comm=Binder:1579_1 prev_pid=1590 prev_prio=120 prev_state=S ==> next_comm=.android.chrome next_pid=3139 next_prio=116
